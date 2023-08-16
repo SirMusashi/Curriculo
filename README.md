@@ -8,12 +8,16 @@ Meu currículo
 
 - 💀 Estudante de programação em formação pelo SENAC Chapecó.
 - 💀 Java(APACHE NETBEANS), Sql(POSTGRESQL).
+- 💀 Atualmente estudando HTML, CSS e desenvolvimento back end em JAVA.
 
 
 ## Skills :
 <div>
 <a href="" target="_blank"><img src="https://img.shields.io/badge/apache%20netbeans-1B6AC6?style=for-the-badge&logo=apache%20netbeans%20IDE&logoColor=white" target="_blank"></a>
 <a href="" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" target="_blank"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" target="_blank"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" target="_blank"></a>
+<a href="" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" target="_blank"></a>
 
 
 ## Contatos:
