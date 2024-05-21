@@ -6,9 +6,9 @@ Meu currículo
 (PT/BR)
 
 
-- 💀 Estudante de programação em formação pelo SENAC Chapecó.
-- 💀 Java(APACHE NETBEANS), Sql(POSTGRESQL).
-- 💀 Atualmente estudando HTML, CSS e desenvolvimento back end em JAVA.
+- 💀 Estudante de Análise e Desenvolvimento de Sistemas na faculdade ESTACIO EAD.
+- 💀 Java(APACHE NETBEANS), Sql(POSTGRESQL),HTML, CSS.
+- 💀 Atualmente estudando pyton.
 
 
 ## Skills :
