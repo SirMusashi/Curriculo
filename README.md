@@ -1,5 +1,6 @@
 ## My name is Bruno "Musashi" Duarte
 
+
 # Curriculo
 Meu currículo
 
