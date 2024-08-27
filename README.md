@@ -7,8 +7,8 @@ Meu currículo
 
 
 - 💀 Estudante de Análise e Desenvolvimento de Sistemas na faculdade ESTACIO EAD.
-- 💀 Java(APACHE NETBEANS), Sql(POSTGRESQL),HTML, CSS.
-- 💀 Atualmente estudando pyton.
+- 💀 JAVA, POSTGRESSQL,HTML, CSS, JS, PYTHON, BOOTSTRAP, SPRING
+
 
 
 ## Skills :
