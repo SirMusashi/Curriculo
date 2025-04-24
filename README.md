@@ -1,4 +1,4 @@
-## My name is Bruno "Musashi" Duarte
+## Bruno "Musashi" Duarte
 
 
 # Curriculo
