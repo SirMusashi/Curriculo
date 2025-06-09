@@ -8,7 +8,7 @@ Meu currículo
 
 
 - 💀 Estudante de Análise e Desenvolvimento de Sistemas na faculdade ESTACIO EAD;
-- 💀 JAVA, POSTGRESSQL, HTML, CSS, JS, PYTHON, BOOTSTRAP, SPRING, LINUX, DevSecOps;
+- 💀 JAVA, POSTGRESSQL, HTML, CSS, JS, PYTHON, BOOTSTRAP, SPRING, LINUX, DevSecOps, Docker, AWS;
 - 💀 Atualmente trabalhando com DevSecOps/AWS na CompassUOL;
 
 
