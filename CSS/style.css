@@ -1,24 +1,17 @@
 /*!
-* Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
+* Estilos Personalizados para o Portfólio de Bruno Duarte
+* Baseado no template Resume da Start Bootstrap
 */
 
 :root {
   --bs-primary: #0099cc;
   --bs-secondary: #6c757d;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
   --bs-font-sans-serif: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 body {
   padding-top: 54px;
-  color: #868e96;
+  color: #6c757d;
   font-family: var(--bs-font-sans-serif);
   font-size: 1.1rem;
   line-height: 1.6;
@@ -27,9 +20,10 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    padding-left: 17rem; /* Empurra o conteúdo principal para a direita */
   }
 }
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
@@ -63,38 +57,34 @@ p.lead {
 }
 
 .text-primary {
-    color: var(--bs-primary) !important;
+  color: var(--bs-primary) !important;
 }
 
 a {
-    color: var(--bs-primary);
+  color: var(--bs-primary);
 }
 
 a:hover, a:focus, a:active {
-    color: #007bb2;
+  color: #007bb2;
 }
+
+/* ================================================= */
+/* ============= ESTILOS DA BARRA LATERAL ========== */
+/* ================================================= */
 
 #sideNav {
   background-color: var(--bs-primary);
 }
-#sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.75);
-}
-#sideNav .navbar-nav .nav-item .nav-link:hover {
-  color: white;
-}
 
-/* ================== AJUSTES NA FOTO AQUI ================== */
+/* Regras gerais para a foto */
 #sideNav .navbar-brand .img-profile {
-  max-width: 12rem; /* <-- AUMENTADO DE 10rem PARA 12rem */
-  max-height: 12rem; /* <-- AUMENTADO DE 10rem PARA 12rem */
+  max-width: 12rem;
+  max-height: 12rem;
   border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  border-radius: 50%; /* <-- FORÇANDO A BORDA REDONDA */
+  border-radius: 50%;
 }
 
+/* Regras para o menu em telas grandes (desktop) */
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -102,35 +92,44 @@ a:hover, a:focus, a:active {
     top: 0;
     left: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    justify-content: center; /* Centraliza o conteúdo (foto + links) verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
     width: 17rem;
     height: 100vh;
   }
+  
   #sideNav .navbar-brand {
-    display: flex;
-    margin: auto; /* <-- CORRIGIDO PARA CENTRALIZAR VERTICAL E HORIZONTALMENTE */
-    padding: 0.5rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem; /* Espaço entre a foto e os links */
   }
+  
   #sideNav .navbar-collapse {
-    display: flex;
-    align-items: flex-start;
-    flex-grow: 0;
+    display: flex !important;
     width: 100%;
-    margin-top: auto; /* Empurra os links para baixo, depois da foto */
-    margin-bottom: 2rem; /* Espaço na parte inferior */
   }
-  #sideNav .navbar-collapse .navbar-nav {
+
+  #sideNav .navbar-nav {
     flex-direction: column;
     width: 100%;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
-    display: block;
+
+  #sideNav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
+
+  #sideNav .nav-link:hover {
+    color: #fff;
   }
 }
-/* ========================================================== */
+
+/* ================================================= */
+/* ============== OUTROS ESTILOS =================== */
+/* ================================================= */
 
 .social-icons .social-icon {
   display: inline-flex;
@@ -156,31 +155,32 @@ a:hover, a:focus, a:active {
 }
 
 .fa-ul {
-    margin-left: 0;
-    list-style-type: none;
+  margin-left: 0;
+  list-style-type: none;
 }
 .fa-ul > li {
-    position: relative;
-    padding-left: 2.5rem;
-    margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 .fa-ul > li > .fa-li {
-    position: absolute;
-    left: 0;
-    top: 0.1rem;
-    width: 2em;
-    text-align: center;
-    font-size: 1.2rem;
-    color: var(--bs-primary);
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  width: 2em;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--bs-primary);
 }
 
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
+  border-bottom: 1px solid #dee2e6;
 }
-section.resume-section .resume-section-content {
-  width: 100%;
+section.resume-section:last-of-type {
+    border-bottom: none;
 }
 
 @media (min-width: 768px) {
@@ -188,6 +188,7 @@ section.resume-section .resume-section-content {
     min-height: 100vh;
   }
 }
+
 @media (min-width: 992px) {
   section.resume-section {
     padding-top: 3rem !important;
