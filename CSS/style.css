@@ -19,6 +19,7 @@
 body {
   padding-top: 54px;
   color: #868e96;
+  font-family: var(--bs-font-sans-serif); /* <-- ESTA É A LINHA QUE FALTAVA */
 }
 
 @media (min-width: 992px) {
