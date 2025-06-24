@@ -7,6 +7,8 @@
 
 Sou um estudante de **Análise e Desenvolvimento de Sistemas** na Estácio, atualmente imerso no universo de nuvem e segurança como DevSecOps na **CompassUOL**. Tenho experiência sólida com o ecossistema Java e Spring, mas minha curiosidade me leva a explorar constantemente tecnologias como Python, Docker e o vasto mundo da AWS. Meu objetivo é construir soluções seguras, eficientes e escaláveis.
 
+**link do curriculo** : https://sirmusashi.github.io/Curriculo/
+
 <br>
 
 ##  Tecnologias e Ferramentas
