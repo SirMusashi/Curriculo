@@ -11,7 +11,7 @@
 
 body {
   padding-top: 54px;
-  color: #6c757d;
+  color: #868e96;
   font-family: var(--bs-font-sans-serif);
   font-size: 1.1rem;
   line-height: 1.6;
@@ -57,15 +57,15 @@ p.lead {
 }
 
 .text-primary {
-  color: var(--bs-primary) !important;
+    color: var(--bs-primary) !important;
 }
 
 a {
-  color: var(--bs-primary);
+    color: var(--bs-primary);
 }
 
 a:hover, a:focus, a:active {
-  color: #007bb2;
+    color: #007bb2;
 }
 
 /* ================================================= */
@@ -76,7 +76,6 @@ a:hover, a:focus, a:active {
   background-color: var(--bs-primary);
 }
 
-/* Regras gerais para a foto */
 #sideNav .navbar-brand .img-profile {
   max-width: 12rem;
   max-height: 12rem;
@@ -92,26 +91,34 @@ a:hover, a:focus, a:active {
     top: 0;
     left: 0;
     display: flex;
-    flex-direction: column; /* Organiza os itens em uma coluna */
-    justify-content: center; /* Centraliza o conteúdo (foto + links) verticalmente */
-    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     width: 17rem;
     height: 100vh;
   }
   
   #sideNav .navbar-brand {
+    display: block;
+    margin: 0 auto 3rem auto; /* Margem inferior de 3rem para separar da navegação */
     padding: 0;
-    margin: 0;
-    margin-bottom: 2rem; /* Espaço entre a foto e os links */
   }
   
   #sideNav .navbar-collapse {
     display: flex !important;
     width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
   #sideNav .navbar-nav {
     flex-direction: column;
+    width: 100%;
+    padding-left: 0; /* <-- REMOVE O RECUO DA LISTA */
+    list-style: none; /* <-- REMOVE OS PONTOS */
+  }
+
+  #sideNav .nav-item {
     width: 100%;
   }
 
@@ -120,6 +127,9 @@ a:hover, a:focus, a:active {
     font-weight: 800;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
+    display: block;
+    padding: 0.75rem 0; 
+    text-align: center; /* <-- FORÇA A CENTRALIZAÇÃO DO TEXTO */
   }
 
   #sideNav .nav-link:hover {
@@ -155,22 +165,22 @@ a:hover, a:focus, a:active {
 }
 
 .fa-ul {
-  margin-left: 0;
-  list-style-type: none;
+    margin-left: 0;
+    list-style-type: none;
 }
 .fa-ul > li {
-  position: relative;
-  padding-left: 2.5rem;
-  margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 0.5rem;
 }
 .fa-ul > li > .fa-li {
-  position: absolute;
-  left: 0;
-  top: 0.1rem;
-  width: 2em;
-  text-align: center;
-  font-size: 1.2rem;
-  color: var(--bs-primary);
+    position: absolute;
+    left: 0;
+    top: 0.1rem;
+    width: 2em;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--bs-primary);
 }
 
 section.resume-section {
