@@ -19,7 +19,9 @@
 body {
   padding-top: 54px;
   color: #868e96;
-  font-family: var(--bs-font-sans-serif); /* <-- ESTA É A LINHA QUE FALTAVA */
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1.1rem; /* Aumenta o tamanho base da fonte em 10% */
+  line-height: 1.6; /* Melhora o espaçamento entre as linhas */
 }
 
 @media (min-width: 992px) {
@@ -49,7 +51,7 @@ h3, .h3 {
 }
 
 p.lead {
-  font-size: 1.15rem;
+  font-size: 1.25rem; /* Ajustado para ser um pouco maior que o novo corpo */
   font-weight: 400;
 }
 
