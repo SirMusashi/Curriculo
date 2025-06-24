@@ -100,7 +100,7 @@ a:hover, a:focus, a:active {
   
   #sideNav .navbar-brand {
     display: block;
-    margin: 0 auto 3rem auto; /* Margem inferior de 3rem para separar da navegação */
+    margin: 0 auto 3rem auto;
     padding: 0;
   }
   
@@ -114,8 +114,8 @@ a:hover, a:focus, a:active {
   #sideNav .navbar-nav {
     flex-direction: column;
     width: 100%;
-    padding-left: 0; /* <-- REMOVE O RECUO DA LISTA */
-    list-style: none; /* <-- REMOVE OS PONTOS */
+    padding-left: 0;
+    list-style: none;
   }
 
   #sideNav .nav-item {
@@ -129,7 +129,7 @@ a:hover, a:focus, a:active {
     text-transform: uppercase;
     display: block;
     padding: 0.75rem 0; 
-    text-align: center; /* <-- FORÇA A CENTRALIZAÇÃO DO TEXTO */
+    text-align: center;
   }
 
   #sideNav .nav-link:hover {
@@ -163,6 +163,23 @@ a:hover, a:focus, a:active {
 .dev-icons {
   font-size: 3rem;
 }
+
+/* ========================================================== */
+/* ========= REGRAS PARA ALINHAR OS ÍCONES NA HORIZONTAL ==== */
+/* ========================================================== */
+ul.dev-icons {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os ícones quebrem a linha se não couberem */
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.dev-icons li {
+  margin-right: 1rem; /* Espaçamento entre os ícones */
+  margin-bottom: 1rem;
+}
+/* ========================================================== */
+
 
 .fa-ul {
     margin-left: 0;
