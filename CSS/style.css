@@ -20,8 +20,8 @@ body {
   padding-top: 54px;
   color: #868e96;
   font-family: var(--bs-font-sans-serif);
-  font-size: 1.1rem; /* Aumenta o tamanho base da fonte em 10% */
-  line-height: 1.6; /* Melhora o espaçamento entre as linhas */
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 @media (min-width: 992px) {
@@ -51,7 +51,7 @@ h3, .h3 {
 }
 
 p.lead {
-  font-size: 1.25rem; /* Ajustado para ser um pouco maior que o novo corpo */
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
@@ -86,10 +86,13 @@ a:hover, a:focus, a:active {
 #sideNav .navbar-nav .nav-item .nav-link:hover {
   color: white;
 }
+
+/* ================== AJUSTES NA FOTO AQUI ================== */
 #sideNav .navbar-brand .img-profile {
-  max-width: 10rem;
-  max-height: 10rem;
+  max-width: 12rem; /* <-- AUMENTADO DE 10rem PARA 12rem */
+  max-height: 12rem; /* <-- AUMENTADO DE 10rem PARA 12rem */
   border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%; /* <-- FORÇANDO A BORDA REDONDA */
 }
 
 @media (min-width: 992px) {
@@ -105,7 +108,7 @@ a:hover, a:focus, a:active {
   }
   #sideNav .navbar-brand {
     display: flex;
-    margin: auto auto 0;
+    margin: auto; /* <-- CORRIGIDO PARA CENTRALIZAR VERTICAL E HORIZONTALMENTE */
     padding: 0.5rem;
   }
   #sideNav .navbar-collapse {
@@ -113,7 +116,8 @@ a:hover, a:focus, a:active {
     align-items: flex-start;
     flex-grow: 0;
     width: 100%;
-    margin-bottom: auto;
+    margin-top: auto; /* Empurra os links para baixo, depois da foto */
+    margin-bottom: 2rem; /* Espaço na parte inferior */
   }
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
@@ -126,6 +130,7 @@ a:hover, a:focus, a:active {
     display: block;
   }
 }
+/* ========================================================== */
 
 .social-icons .social-icon {
   display: inline-flex;
